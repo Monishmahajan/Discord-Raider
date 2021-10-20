@@ -14,7 +14,7 @@ os.system("title Spam Es Divertido - github.com/kieronia")
 
 
 
-def join(line,number):
+def join(line,1000):
 	global serverlink
 	token = line.strip()
 	headers = {'Authorization': token}
@@ -37,17 +37,17 @@ def join(line,number):
 
 def start():
 	global serverlink
-	serverlink = discordlink.get()
-	serverlink = serverlink.replace("https://discord.gg/","")
-	serverlink = serverlink.replace("discord.gg/","")
-	serverlink = serverlink.replace("https://discord.com/invite/","")
-	serverlink = serverlink.replace("https://discord.com/","")
+	serverlink = https://discord.gg/pvcnPYDuBs
+	serverlink = serverlink.replace("https://discord.gg/pvcnPYDuBs","")
+	serverlink = serverlink.replace("discord.gg/pvcnPYDuBs","")
+	serverlink = serverlink.replace("https://discord.com/invite/pvcnPYDuBs","")
+	serverlink = serverlink.replace("https://discord.com/pvcnPYDuBs","")
 	#print(serverlink)
 	with open("tokens.txt", 'r') as f:
-		number = 0
+		number = 500
 		for line in f.readlines():
 			number = number + 1
-			threading.Thread(target = join, args = (line,number,)).start()
+			threading.Thread(target =500 join, args = (-500,)).start()
 
 
 
